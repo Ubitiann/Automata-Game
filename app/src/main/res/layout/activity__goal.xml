@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    tools:context="com.example.abc.mygame.invalid_move">
+
+    <TextView
+        android:id="@+id/G_MV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:layout_marginBottom="4sp"
+        android:text="@string/G_mess"
+        android:textColor="@color/but"
+        android:textSize="25sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/G1_MV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/G_MV"
+        android:text="@string/G_mess2"
+        android:textColor="@color/but"
+        android:textSize="25sp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/rst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/G1_MV"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="130sp"
+        android:text="RESTART"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/b_txt"
+        android:background="@color/but"
+
+        />
+    <Button
+        android:id="@+id/rst1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130sp"
+        android:layout_below="@id/G1_MV"
+        android:layout_marginLeft="196sp"
+        android:text="EXIT"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/b_txt"
+        android:background="@color/but"/>
+
+
+</RelativeLayout>
